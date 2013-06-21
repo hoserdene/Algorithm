@@ -1,0 +1,8 @@
+v1,t1=raw_input().split()
+v2,t2=raw_input().split()
+x1=float(v1)
+x2=float(v2)
+y1=float(t1)
+y2=float(t2)
+print round((x1*y1+x2*y2)/(x1+x2),1)
+print round(x1+x2,1)
